@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog</title>
+	
+	<!-- Slick CSS -->
+  	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+  	<!-- Optional Slick theme -->
+  	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+  	<!-- Css -->
+  	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  	<!-- jQuery -->
+  	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  	<!-- Slick JS -->
+  	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		
+	<!-- JS -->
+	<script src="./js/script.js"></script>
+</head>
+<body class="project-page">
+
+<!-- Header V2 -->
+<div class="header-v2 fullwidth">
+	<div class="wrapper">
+		<div class="header-inner fl fac">
+			<div class="header-logo">
+				<a href="/home/Diaan/home.html"><img src="./images/logo.svg"></a>
+			</div>
+			<div class="header-rght fl fac">
+				<div class="header-menu">
+					<ul>
+						<li>
+							<a href="/home/Diaan/home.html">Home</a>
+						</li>
+						<li>
+							<a href="/home/Diaan/about.html">About Us</a>
+						</li>
+						<li>
+							<a href="/home/Diaan/project.html">Projects</a>
+						</li>
+						<li>
+							<a href="/home/Diaan/product.html">Products</a>
+						</li>
+						<li>
+							<a href="/home/Diaan/blog.html">Blog</a> 
+						</li>
+						<li>
+							<a href="/home/Diaan/contact.html">Contact</a>
+						</li>
+					</ul>
+					<div class="head-btn hide">
+						<a href="##">
+							<span>Get a quote</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M14.5155 7.60944L10.0155 3.10944C9.86925 2.96319 9.6315 2.96319 9.48525 3.10944C9.339 3.25569 9.339 3.49344 9.48525 3.63969L13.3447 7.49919H1.125C0.918 7.49919 0.75 7.66719 0.75 7.87419C0.75 8.08119 0.918 8.24919 1.125 8.24919H13.3447L9.48525 12.1087C9.339 12.2549 9.339 12.4927 9.48525 12.6389C9.55875 12.7124 9.65475 12.7484 9.75075 12.7484C9.84675 12.7484 9.94275 12.7117 10.0162 12.6389L14.5162 8.13894C14.6625 7.99269 14.6625 7.75494 14.5162 7.60869L14.5155 7.60944Z" fill="white"/></svg>
+						</a>
+					</div>
+				</div>
+				<div class="header-buttons fl fac">
+					<div class="header-search">
+						<div class="search-icon">
+							<img src="./images/search.svg">
+						</div>
+						<div class="search-bar">
+							<form>
+    							<input type="text" class="input" class="search-field" placeholder="Search">
+    							<button id="search-button" type="button" class="btn search-btn">
+									<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none"><path d="M10.6666 18C12.4416 17.9996 14.1654 17.4054 15.5636 16.312L19.9596 20.708L21.3736 19.294L16.9776 14.898C18.0716 13.4997 18.6662 11.7754 18.6666 10C18.6666 5.589 15.0776 2 10.6666 2C6.25563 2 2.66663 5.589 2.66663 10C2.66663 14.411 6.25563 18 10.6666 18ZM10.6666 4C13.9756 4 16.6666 6.691 16.6666 10C16.6666 13.309 13.9756 16 10.6666 16C7.35763 16 4.66663 13.309 4.66663 10C4.66663 6.691 7.35763 4 10.6666 4Z" fill="#202220"/></svg>  
+								</button>
+							</form>
+						</div>
+					</div>
+					<div class="head-btn">
+						<a href="##">
+							<span>Get a quote</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M14.5155 7.60944L10.0155 3.10944C9.86925 2.96319 9.6315 2.96319 9.48525 3.10944C9.339 3.25569 9.339 3.49344 9.48525 3.63969L13.3447 7.49919H1.125C0.918 7.49919 0.75 7.66719 0.75 7.87419C0.75 8.08119 0.918 8.24919 1.125 8.24919H13.3447L9.48525 12.1087C9.339 12.2549 9.339 12.4927 9.48525 12.6389C9.55875 12.7124 9.65475 12.7484 9.75075 12.7484C9.84675 12.7484 9.94275 12.7117 10.0162 12.6389L14.5162 8.13894C14.6625 7.99269 14.6625 7.75494 14.5162 7.60869L14.5155 7.60944Z" fill="white"/></svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Hero Section - About -->
+<div class="about-hrsec fullwidth bgimg" style="background-image: url('./images/blog-hr.jpg');">
+	<div class="overlay" style="background-color: rgb(32 34 32 / 40%);"></div>
+	<div class="wrapper">
+		<div class="about-hrinn fnt-jost">
+			<div class="large-txt">
+				<h1>Blogs</h1>
+			</div>
+			<div class="breadcrumb-menu">
+				<ul>
+					<li><a href="/home/Diaan/home.html">Home</a></li>
+					<li>Blogs</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Blog Listing Section -->
+<div class="blglist-sec fullwidth">
+	<div class="wrapper">
+		<div class="blglist-rw fl">
+			<div class="blglist-col">
+				<div class="blgfeature">
+					<a href="/home/Diaan/blog_details.html" class="bgimg" style="background-image: url('./images/blglisting1.png');">
+						<div class="blogpst-date fnt-jost">
+			   				<div class="icon"><img src="./images/calendar-white.svg"></div>
+			   		 		<span>Jan 05, 2025</span>
+			   			</div>
+			   		</a>
+				</div>
+				<div class="blgcontent">
+					<div class="blogpst-info fl">
+			   			<div class="blogpst-author blgmeta fl">
+			   				<img src="./images/user-red.svg">admin
+			   			</div>
+			   			<div class="blogpst-comments blgmeta fl">
+			   				<img src="./images/chat-red.svg">100K comments
+			   			</div>
+			   		</div>
+					<div class="blgtitle">
+						<h3><a href="/home/Diaan/blog_details.html">Correct Execution Ensures Victory.</a></h3>
+					</div>
+					<div class="blgtext">
+						<p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="blglist-col">
+				<div class="blgfeature">
+					<a href="/home/Diaan/blog_details.html" class="bgimg" style="background-image: url('./images/blglisting2.jpg');">
+						<div class="blogpst-date fnt-jost">
+			   				<div class="icon"><img src="./images/calendar-white.svg"></div>
+			   		 		<span>Jan 20, 2025</span>
+			   			</div>
+			   		</a>
+				</div>
+				<div class="blgcontent">
+					<div class="blogpst-info fl">
+			   			<div class="blogpst-author blgmeta fl">
+			   				<img src="./images/user-red.svg">admin
+			   			</div>
+			   			<div class="blogpst-comments blgmeta fl">
+			   				<img src="./images/chat-red.svg">100K comments
+			   			</div>
+			   		</div>
+					<div class="blgtitle">
+						<h3><a href="/home/Diaan/blog_details.html">Correct Execution Ensures Victory.</a></h3>
+					</div>
+					<div class="blgtext">
+						<p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="blglist-col">
+				<div class="blgfeature">
+					<a href="/home/Diaan/blog_details.html" class="bgimg" style="background-image: url('./images/blglisting3.jpg');">
+						<div class="blogpst-date fnt-jost">
+			   				<div class="icon"><img src="./images/calendar-white.svg"></div>
+			   		 		<span>Feb 10, 2025</span>
+			   			</div>
+			   		</a>
+				</div>
+				<div class="blgcontent">
+					<div class="blogpst-info fl">
+			   			<div class="blogpst-author blgmeta fl">
+			   				<img src="./images/user-red.svg">admin
+			   			</div>
+			   			<div class="blogpst-comments blgmeta fl">
+			   				<img src="./images/chat-red.svg">100K comments
+			   			</div>
+			   		</div>
+					<div class="blgtitle">
+						<h3><a href="/home/Diaan/blog_details.html">Correct Execution Ensures Victory.</a></h3>
+					</div>
+					<div class="blgtext">
+						<p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="blglist-col">
+				<div class="blgfeature">
+					<a href="/home/Diaan/blog_details.html" class="bgimg" style="background-image: url('./images/blglisting4.jpg');">
+						<div class="blogpst-date fnt-jost">
+			   				<div class="icon"><img src="./images/calendar-white.svg"></div>
+			   		 		<span>Feb 28, 2025</span>
+			   			</div>
+			   		</a>
+				</div>
+				<div class="blgcontent">
+					<div class="blogpst-info fl">
+			   			<div class="blogpst-author blgmeta fl">
+			   				<img src="./images/user-red.svg">admin
+			   			</div>
+			   			<div class="blogpst-comments blgmeta fl">
+			   				<img src="./images/chat-red.svg">100K comments
+			   			</div>
+			   		</div>
+					<div class="blgtitle">
+						<h3><a href="/home/Diaan/blog_details.html">Correct Execution Ensures Victory.</a></h3>
+					</div>
+					<div class="blgtext">
+						<p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="blglist-col">
+				<div class="blgfeature">
+					<a href="/home/Diaan/blog_details.html" class="bgimg" style="background-image: url('./images/blglisting5.jpg');">
+						<div class="blogpst-date fnt-jost">
+			   				<div class="icon"><img src="./images/calendar-white.svg"></div>
+			   		 		<span>Mar 15, 2025</span>
+			   			</div>
+			   		</a>
+				</div>
+				<div class="blgcontent">
+					<div class="blogpst-info fl">
+			   			<div class="blogpst-author blgmeta fl">
+			   				<img src="./images/user-red.svg">admin
+			   			</div>
+			   			<div class="blogpst-comments blgmeta fl">
+			   				<img src="./images/chat-red.svg">100K comments
+			   			</div>
+			   		</div>
+					<div class="blgtitle">
+						<h3><a href="/home/Diaan/blog_details.html">Correct Execution Ensures Victory.</a></h3>
+					</div>
+					<div class="blgtext">
+						<p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="blglist-col">
+				<div class="blgfeature">
+					<a href="/home/Diaan/blog_details.html" class="bgimg" style="background-image: url('./images/pst1.jpg');">
+						<div class="blogpst-date fnt-jost">
+			   				<div class="icon"><img src="./images/calendar-white.svg"></div>
+			   		 		<span>Apr 13, 2025</span>
+			   			</div>
+			   		</a>
+				</div>
+				<div class="blgcontent">
+					<div class="blogpst-info fl">
+			   			<div class="blogpst-author blgmeta fl">
+			   				<img src="./images/user-red.svg">admin
+			   			</div>
+			   			<div class="blogpst-comments blgmeta fl">
+			   				<img src="./images/chat-red.svg">100K comments
+			   			</div>
+			   		</div>
+					<div class="blgtitle">
+						<h3><a href="/home/Diaan/blog_details.html">Correct Execution Ensures Victory.</a></h3>
+					</div>
+					<div class="blgtext">
+						<p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Footer -->
+<div class="footer fullwidth">
+	<div class="wrapper">
+		<div class="footer-inn fl text-white">
+			<div class="footer-lf footer-col">
+				<div class="footer-logo">
+					<a href="##"><img src="./images/logo.svg"></a>
+				</div>
+				<div class="footer-txt">
+					<p>Get the latest trends in aluminium glazing and ventilation delivered to your inbox. Sign up today!</p>
+				</div>
+				<div class="footer-social social-icon">
+				  <ul class="fl fac">
+					<li>
+						<a href="##"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M8.66164 15V8.1583H10.9572L11.3016 5.49117H8.66164V3.7886C8.66164 3.01665 8.87513 2.49057 9.98336 2.49057L11.3945 2.48999V0.104422C11.1505 0.072709 10.3128 0 9.33778 0C7.30183 0 5.90798 1.24272 5.90798 3.52445V5.49117H3.60547V8.1583H5.90798V15H8.66164Z" fill="white"/></svg></a>
+					</li>
+					<li>
+						<a href="##"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M14.2337 3.98524C14.0716 3.3828 13.5966 2.90789 12.9943 2.74567C11.8938 2.44458 7.49202 2.44458 7.49202 2.44458C7.49202 2.44458 3.09036 2.44458 1.98993 2.73426C1.39915 2.89631 0.912579 3.38288 0.75053 3.98524C0.460938 5.08559 0.460938 7.36757 0.460938 7.36757C0.460938 7.36757 0.460938 9.66105 0.75053 10.7499C0.91275 11.3523 1.38757 11.8272 1.99001 11.9894C3.10195 12.2906 7.49219 12.2906 7.49219 12.2906C7.49219 12.2906 11.8938 12.2906 12.9943 12.0009C13.5967 11.8387 14.0716 11.3638 14.2338 10.7615C14.5234 9.66105 14.5234 7.37916 14.5234 7.37916C14.5234 7.37916 14.5349 5.08559 14.2337 3.98524ZM6.09057 9.47574V5.2594L9.75091 7.36757L6.09057 9.47574Z" fill="white"/></svg></a>
+					</li>
+					<li>
+						<a href="##"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><g clip-path="url(#clip0_88_916)"><path d="M2.16631 0.761719C1.13514 0.761719 0.460938 1.43884 0.460938 2.32882C0.460938 3.19914 1.11505 3.89557 2.12674 3.89557H2.14631C3.19765 3.89557 3.85194 3.19914 3.85194 2.32882C3.83228 1.43884 3.19765 0.761719 2.16631 0.761719Z" fill="white"/><path d="M0.638672 5.13379H3.65322V14.2032H0.638672V5.13379Z" fill="white"/><path d="M11.0536 4.9209C9.42738 4.9209 8.3369 6.44903 8.3369 6.44903V5.13376H5.32227V14.2031H8.33673V9.13845C8.33673 8.86731 8.35638 8.5966 8.43603 8.40271C8.65396 7.86129 9.14989 7.30038 9.9827 7.30038C11.0735 7.30038 11.5098 8.13208 11.5098 9.35131V14.2031H14.5241V9.00292C14.5241 6.2172 13.0368 4.9209 11.0536 4.9209Z" fill="white"/></g><defs><clipPath id="clip0_88_916"><rect width="15" height="15" fill="white"/></clipPath></defs></svg></a>
+					</li>
+					<li>
+						<a href="##"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><g clip-path="url(#clip0_88_920)"><path d="M8.92104 6.35219L14.5014 0H13.1795L8.33203 5.51439L4.46327 0H0L5.8516 8.33952L0 14.9999H1.32189L6.43761 9.17532L10.5242 14.9999H14.9875M1.79899 0.976183H3.8298L13.1785 14.0717H11.1472" fill="white"/></g><defs><clipPath id="clip0_88_920"><rect width="14.9875" height="15" fill="white"/></clipPath></defs></svg></a>
+					</li>
+				  </ul>
+				</div>
+			</div>
+			<div class="footer-menu footer-col">
+					<h3>Quick Links</h3>
+					<ul>
+						<li>
+							<a href="##">About Us</a>
+						</li>
+						<li>
+							<a href="##">Our Team</a>
+						</li>
+						<li>
+							<a href="##">Our Services</a>
+						</li>
+						<li>
+							<a href="##">Blogs</a>
+						</li>
+						<li>
+							<a href="##">Contact</a>
+						</li>
+					</ul>
+				</div>
+							
+			<div class="footer-post footer-col">
+					<h3>Recent Post</h3>
+					<div class="footer-postrw">
+						<div class="footer-postcol fl fac">
+							<a href="##" class="footer-postimg" style="background-image: url('./images/post1.png') ;"></a>
+							<div class="footer-postcontent">
+								<div class="footer-postdate"> <img src="./images/calendar.svg"> Mar 12, 2025</div>
+								<h3><a href="##">Garden Terraces, Verandas, gazebos</a></h3>
+							</div>							
+						</div>
+						<div class="footer-postcol fl fac">
+							<a href="##" class="footer-postimg" style="background-image: url('./images/post2.png') ;"></a>
+							<div class="footer-postcontent">
+								<div class="footer-postdate"> <img src="./images/calendar.svg"> Apr 02, 2025</div>
+								<h3><a href="##">Building Facades</a></h3>
+							</div>							
+						</div>
+					</div>
+			</div>
+			<div class="footer-form footer-col">
+					<h3>Newsletter</h3>
+					<div class="footer-frmtxt">
+						<p>Unlock fresh ideas for your spaces— join our newsletter for expert tips and updates!</p>
+					</div>
+
+					<form>
+						<div class="hs_email hs-field">
+  							<input required type="email" class="form__field" placeholder="Your email address" />
+  						</div>
+  						<div class="hs_submit ">
+  							<input type="submit" value="Subscribe Now">
+	  					</div>
+					</form>
+			</div>
+			
+		</div>
+		<div class="footer-copyrght tc">
+			<p> © Copyright 2025 by <a href="/">Diaan. </a> All rights Reserved</p>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
